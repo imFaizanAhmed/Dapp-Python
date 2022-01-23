@@ -21,3 +21,7 @@ Deployed the contraction using
 or if it's not working, showing network is up to date then use following command.
 
 ``` truffle deploy --reset ```
+
+Now it's time to migrate our contract. For that run the following command
+
+``` truffle create migration greetingContract ```
